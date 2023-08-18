@@ -21,7 +21,7 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](./assets/weather-screenshot.png)
 
 ## Technologies
 
@@ -37,22 +37,34 @@ clone the repo and start using the stop watch.
 ## Code Examples
 
 ```js
+const fetchWeather = async () => {
+  try {
+    const response = await fetch(data.weatherURL);
+    if (response.ok) {
+      const weatherData = await response.json();
+     return weatherData
+    } else {
+      throw new Error('Error occurred while fetching weather');
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
 
+export default fetchWeather;
 ```
 
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
+- Weather forecast for the next 12 hours in Brugge city
 
 To-do list:
 
--
--
+- Implement search bar for cities
+- Present weather for more days
 
 ## Status
 
-Project is: _in progress_
+Project is: _Completed_
