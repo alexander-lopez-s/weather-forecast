@@ -6,7 +6,7 @@ body {
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: #0c0b0b;
     font-family: 'Merriweather', serif;
 }
 
@@ -16,12 +16,12 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 10px 0;
-    color: #330470; 
+    color: #f8cc08; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .weather-card {
-    background-image: url(https://e0.pxfuel.com/wallpapers/387/859/desktop-wallpaper-best-minimalist-iphone-simple-minimalist-nature.jpg);
+    background-image: url(https://i.pinimg.com/originals/ff/34/4d/ff344d90dd1cf89183789f37aa3f2f07.gif);
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -36,21 +36,23 @@ h1 {
 
 .header-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-weight: bold;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
     margin-bottom: 10px;
-    color: #1df524; 
-    gap: 100px;
+    color: #080808; 
+    margin: 5px;
+    padding: 10px 0;
+    color: rgb(170, 242, 255);
 }
 
 .data-point {
     display: flex;
-    justify-content: space-between;
-    padding: 2px 0;
-    border-bottom: 1px solid #eee;
-    gap: 100px;
+    justify-content: space-around;
+    padding: 10px 0;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 
@@ -75,5 +77,8 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
-    color: rgb(246, 250, 21);
+    color: rgb(243, 246, 252);
+    padding: 10px 0;
   }
+
+
